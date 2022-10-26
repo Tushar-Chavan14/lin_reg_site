@@ -22,7 +22,7 @@ const Home = () => {
 
     console.log("clicked");
 
-    const url = "http://127.0.0.1:3001/predict";
+    const url = "https://linreg-server.herokuapp.com/predict";
 
     axios
       .post(url, data, {

@@ -9,7 +9,7 @@ const Sidebar = ({ title }) => {
   const [logs, setlogs] = useState([]);
   const [loading, setloading] = useState(true);
 
-  const url = "http://127.0.0.1:3001/logs";
+  const url = "https://linreg-server.herokuapp.com/logs";
 
   useEffect(() => {
     let subscribed = true;
